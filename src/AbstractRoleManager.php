@@ -30,7 +30,7 @@ if ( ! class_exists( 'WPS\Roles\AbstractRoleManager' ) ) {
 	/**
 	 * Abstract Role Manager template.
 	 */
-	abstract class AbstractRoleManager extends \WPS\Core\Singleton implements RoleManagerInterface {
+	abstract class AbstractRoleManager extends Base implements RoleManagerInterface {
 		/**
 		 * Registered roles.
 		 *

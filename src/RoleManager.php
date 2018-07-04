@@ -30,7 +30,7 @@ if ( ! class_exists( 'WPS\Roles\RoleManager' ) ) {
 	/**
 	 * Role Manager Factory.
 	 */
-	class RoleManager {
+	class RoleManager extends Base {
 
 		/**
 		 * RoleManager constructor.
