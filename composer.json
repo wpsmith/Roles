@@ -1,12 +1,11 @@
 {
-  "name": "wpsmith/capabilities",
-  "description": "WordPress Capabilities.",
+  "name": "wpsmith/roles",
+  "description": "WordPress Roles.",
   "keywords": [
     "wordpress",
-    "capability",
-    "capabilities"
+    "roles"
   ],
-  "homepage": "https://github.com/wpsmith/Capabilities",
+  "homepage": "https://github.com/wpsmith/Roles",
   "license": "GPL-2.0+",
   "authors": [
     {
@@ -17,7 +16,7 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/wpsmith/Capabilities/issues"
+    "issues": "https://github.com/wpsmith/Roles/issues"
   },
   "require": {
     "php": ">=5.2.4",
@@ -25,7 +24,7 @@
   },
   "autoload": {
     "psr-4": {
-      "WPS\\Capabilities\\": "src/"
+      "WPS\\Roles\\": "src/"
     }
   }
 }
